@@ -1,0 +1,23 @@
+# 📦 Core Dependencies
+python>=3.8
+
+# 🌐 Web Scraping (sika_scraper.py)
+requests==2.31.0          # HTTP requests with timeouts
+beautifulsoup4==4.12.2    # HTML parsing
+lxml==4.9.3               # Faster HTML parsing (alternative to html.parser)
+pdfplumber==0.10.2        # PDF text extraction (for datasheets)
+urllib3==2.0.7            # URL handling
+
+# 🤖 AI/ML Classification (classifier_emb.py & classifier_llm.py)
+ollama==0.1.11            # Ollama for embeddings & LLMs
+numpy==1.26.0             # Numerical operations (cosine similarity)
+scikit-learn==1.3.0       # Cosine similarity calculation
+sentence-transformers==2.2.2  # Embedding models (fallback if needed)
+
+# 📊 Data Processing
+pandas==2.1.0             # CSV/JSON handling
+tqdm==4.66.1              # Progress bars for batch processing
+
+# 🛠️ Utilities
+python-dotenv==1.0.0      # Environment variables (for API keys)
+loguru==0.7.2             # Simplified logging
